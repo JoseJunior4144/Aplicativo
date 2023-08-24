@@ -1,12 +1,12 @@
-import './App.css'
+import './index.css'
 
 function App() {
-
   return (
-    <>
-      <p> Teste </p>
-      <button> Test </button>
-    </>
+    <div className='principal'>
+      <h1>Projeto Escola Nelson Monteiro</h1>
+      <button type='button' >Gerar QR Codes</button>
+      <button type='button'>Enviar Mensagem</button>
+    </div>
   )
 }
 
